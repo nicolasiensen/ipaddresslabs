@@ -52,8 +52,11 @@ And it will return a JSON object like this:
     "isp" : "Virtua",
     "organization" : "Virtua"
   }
-}
-```
+}```
+
+You need to set an environment variable to get this work:
+
+```ENV["IPADDRESSLABS_KEY"] = "your_ipaddresslabs_key"```
 
 ## Contributing
 
