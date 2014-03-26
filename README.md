@@ -1,3 +1,5 @@
+[![Code Climate](https://codeclimate.com/github/nicolasiensen/ipaddresslabs.png)](https://codeclimate.com/github/nicolasiensen/ipaddresslabs)
+
 # Ipaddresslabs
 
 TODO: Write a gem description
