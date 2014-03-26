@@ -9,6 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Nícolas Iensen"]
   spec.email         = ["nicolas@iensen.me"]
   spec.summary       = %q{Gem wrapper for the ipaddresslabs.com API}
+  spec.description   = %q{Any available API need a wrapper gem right?}
   spec.homepage      = "https://github.com/nicolasiensen/ipaddresslabs"
   spec.license       = "MIT"
 
@@ -18,7 +19,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 1.5"
-  spec.add_development_dependency "rake"
+  spec.add_development_dependency 'rake', '~> 0'
 
-  spec.add_runtime_dependency 'httparty'
+  spec.add_runtime_dependency 'httparty', '~> 0'
 end
