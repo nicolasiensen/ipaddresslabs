@@ -2,7 +2,7 @@
 
 # Ipaddresslabs
 
-TODO: Write a gem description
+Any available API in the world deserves a wrapper gem right?
 
 ## Installation
 
@@ -20,7 +20,40 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+You can call ```locate``` method like this:
+
+```Ipaddresslabs.locate("177.142.170.45")```
+
+And it will return a JSON object like this:
+
+```
+{
+  "query_status" : {
+    "query_status_code" : "OK",
+    "query_status_description" : "Query successfully performed."
+  },
+    "ip_address" : "177.142.170.45",
+    "geolocation_data" : {
+    "continent_code" : "SA",
+    "continent_name" : "South America",
+    "country_code_iso3166alpha2" : "BR",
+    "country_code_iso3166alpha3" : "BRA",
+    "country_code_iso3166numeric" : "76",
+    "country_code_fips10-4" : "BR",
+    "country_name" : "Brazil",
+    "region_code" : "BR21",
+    "region_name" : "Rio de Janeiro",
+    "city" : "Rio De Janeiro",
+    "postal_code" : "-",
+    "metro_code" : "-",
+    "area_code" : "-",
+    "latitude" : -22.9,
+    "longitude" : -43.2333,
+    "isp" : "Virtua",
+    "organization" : "Virtua"
+  }
+}
+```
 
 ## Contributing
 
