@@ -57,6 +57,15 @@ You need to set an environment variable to get this work:
 
     ENV["IPADDRESSLABS_KEY"] = "your_ipaddresslabs_key"
 
+Or set in secrets.yml file
+
+    development:
+      ipaddresslabs_key: your_ipaddresslabs_key
+    test:
+      ipaddresslabs_key: your_ipaddresslabs_key
+    production:
+      ipaddresslabs_key: your_ipaddresslabs_key
+
 ## Contributing
 
 1. Fork it ( http://github.com/<my-github-username>/ipaddresslabs/fork )
